@@ -1,0 +1,89 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hello! Thank you for choosing this gym chatbot, how are you today?",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["I", "am", "good"],
+    "bot_response": "That's great! What do you think of this gym?",
+    "required_words": ["am","good"]
+  },
+
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+   {
+    "response_type": "goodReview1",
+    "user_input": ["The", "gym", "is", "good"],
+    "bot_response": "Nice to know you are having a good time with us! Do you have any more feedback or questions?",
+    "required_words": ["gym", "good"]
+  },
+  {
+    "response_type": "goodReview2",
+    "user_input": ["The", "gym", "is", "fun"],
+    "bot_response": "Thank you for the postive feedback! Do you have any more feedback or questions?",
+    "required_words": ["gym", "fun"]
+  },
+  {
+    "response_type": "badReview1",
+    "user_input": ["The", "gym", "is", "bad"],
+    "bot_response": "I'm sorry for your bad experience, we are constantly working to improve that! Do you have any more feedback or questions?",
+    "required_words": ["gym", "bad"]
+  },
+  {
+    "response_type": "badReview2",
+    "user_input": ["The", "gym", "is", "crowded"],
+    "bot_response": "We are looking forward to increase our timings to make the gym less crowded! Do you have any more feedback or questions? ",
+
+    "required_words": ["gym", "crowded"]
+  },
+  {
+    "response_type": "question1",
+    "user_input": ["Tell", "me", "more", "about","your","gym"],
+    "bot_response": "Our experience runs deep. We know the difference between cheap fads and time-proven techniques. We have learned the best ways to get your hearts pounding and your adrenaline pumping. We make sure all of our gyms have all the tools you need to perform your best. ",
+
+    "required_words": ["gym", "about"]
+  },
+  {
+    "response_type": "question2",
+    "user_input": ["Where", "are", "you", "located"],
+    "bot_response": "We have 3 locations that you can access: \n1.Dilworth Center \n2.West-Kelowna \n3. Glenmore",
+
+    "required_words": ["located"]
+  },
+  {
+    "response_type": "question3",
+    "user_input": ["What", "payment", "options", "do", "you", "accept"],
+    "bot_response": "We accept: \nCredit/Debit Card \nCash \nApple Pay \nPayPal",
+
+    "required_words": ["payment"]
+  },
+
+
+
+    {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "Contact @987-933-6534 for our refund policy. Thank you!",
+    "required_words": ["refund"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking. What do you think of this gym? ",
+    "required_words": ["how", "are", "you"]
+  }
+]
